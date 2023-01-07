@@ -26,13 +26,13 @@ export default function Header() {
         >
           Home
         </Link>
-        <Link href="/" className="px-2 py-1 text-white">
+        <Link href="/departments" className="px-2 py-1 text-white">
           Departments
         </Link>
         {/* <Link href="/" className="px-2 py-1 text-white">
         Events
       </Link> */}
-        <Link href="/" className="px-2 py-1 text-white">
+        <Link href="/recruitment" className="px-2 py-1 text-white">
           Recruitment
         </Link>
         <Link
