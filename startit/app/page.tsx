@@ -1,7 +1,6 @@
 import React from "react";
 
 function Home() {
-  // return <div>This is home</div>;
   return (
     <div className="absolute top-1/2 w-full text-center">
       <p className="text-sm sm:text-lg">
