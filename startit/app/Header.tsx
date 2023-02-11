@@ -5,43 +5,112 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between space-x-2 font-bold px-10 py-5">
-      <div className="flex items-center space-x-2">
-        <Link href="/">
-          <Image
-            className="rounded-full"
-            src={logoPic}
-            alt="logo"
-            // width="150"
-            height="100"
-            // objectFit="contain"
-          />
-        </Link>
-      </div>
+    <div className="navbar bg-base-100">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a>Item 1</a>
+            </li>
 
-      <div>
-        <Link
-          href="/"
-          className="px-5 py-3 text-sm md:text-base text-white items-center rounded-full text-center hover:text-yellow-500"
-        >
-          Home
-        </Link>
-        <Link href="/" className="px-2 py-1 text-white">
-          Departments
-        </Link>
-        {/* <Link href="/" className="px-2 py-1 text-white">
-        Events
-      </Link> */}
-        <Link href="/" className="px-2 py-1 text-white">
-          Recruitment
-        </Link>
-        <Link
-          href="/"
-          className="px-5 py-3 text-sm md:text-base text-white items-center rounded-full text-center"
-        >
-          Contact Us
-        </Link>
+            <li>
+              <a>Item 3</a>
+            </li>
+          </ul>
+        </div>
+        <a className="btn btn-ghost normal-case text-xl">StartIT</a>
       </div>
-    </header>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <Link
+              href="/"
+              className="text-sm md:text-base text-white items-center rounded-full text-center hover:text-yellow-500"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="/departments" className=" text-white">
+              Departments
+            </Link>
+          </li>
+          <li>
+            <Link href="/recruitment" className=" text-white">
+              Recruitment
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/"
+              className=" text-sm md:text-base text-white items-center rounded-full text-center"
+            >
+              Contact Us
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
+        {/* <a className="btn">Get started</a> */}
+      </div>
+    </div>
+
+    // <header className="flex items-center justify-between space-x-2 font-bold px-10 py-5">
+    //   <div className="flex items-center space-x-2">
+    //     <Link href="/">
+    //       <Image
+    //         className="rounded-full"
+    //         src={logoPic}
+    //         alt="logo"
+    //         // width="150"
+    //         height="100"
+    //         // objectFit="contain"
+    //       />
+    //     </Link>
+    //   </div>
+
+    //   <div>
+    //     <Link
+    //       href="/"
+    //       className="px-5 py-3 text-sm md:text-base text-white items-center rounded-full text-center hover:text-yellow-500"
+    //     >
+    //       Home
+    //     </Link>
+    //     <Link href="/departments" className="px-2 py-1 text-white">
+    //       Departments
+    //     </Link>
+    //     {/* <Link href="/" className="px-2 py-1 text-white">
+    //     Events
+    //   </Link> */}
+    //     <Link href="/recruitment" className="px-2 py-1 text-white">
+    //       Recruitment
+    //     </Link>
+    //     <Link
+    //       href="/"
+    //       className="px-5 py-3 text-sm md:text-base text-white items-center rounded-full text-center"
+    //     >
+    //       Contact Us
+    //     </Link>
+    //   </div>
+    // </header>
   );
 }
