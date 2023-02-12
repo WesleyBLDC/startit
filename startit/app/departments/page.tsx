@@ -1,4 +1,5 @@
 import React from "react";
+import MainCarousel from "../../pages/archiveComponents/MainCarousel";
 import ProfileCard from "../ProfileCard";
 import SegmentTitle from "../SegmentTitle";
 import SubHero from "../SubHero";

@@ -1,15 +1,15 @@
 "use client";
 
-import Hero from "./Hero";
-import SubHero from "./SubHero";
-import carousell1 from "../styles/p1_50downsize.png";
-import logoPic from "../styles/White_StartIT_full_logo_rect.png"; //"../styles/White_StartIT_full_logo.png";
+// import Hero from "./Hero";
+// import SubHero from "./SubHero";
+// import carousell1 from "../styles/p1_50downsize.png";
+// import logoPic from "../styles/White_StartIT_full_logo_rect.png"; //"../styles/White_StartIT_full_logo.png";
 
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-export default function Carousel() {
+export default function CarouselOld() {
   const slides = [
     {
       // https://unsplash.com/photos/cX2vElQ5aHk
