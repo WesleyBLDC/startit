@@ -11,14 +11,14 @@ export default function SubHero({ title }) {
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
 
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero bg-base-200">
       <div className="hero-content text-center">
         <div className="max-w-md">
           <div className="flex items-center">
             <div style={{ fontSize: "48px", width: "48px", height: "48px" }}>
               <IoIosRocket />
             </div>
-            <h1 className="pl-4 text-5xl font-bold">Hello there</h1>
+            <h1 className="pl-4 text-5xl font-bold ">{title}</h1>
           </div>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda

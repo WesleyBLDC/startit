@@ -1,6 +1,8 @@
-import React from "react";
 import Hero from "./Hero";
 import SubHero from "./SubHero";
+import carousell1 from "../styles/p1_50downsize.png";
+import logoPic from "../styles/White_StartIT_full_logo_rect.png"; //"../styles/White_StartIT_full_logo.png";
+import Carousel from "./Carousel";
 
 function Home() {
   return (
@@ -11,8 +13,10 @@ function Home() {
     // </div>
     <>
       <Hero />
-      <SubHero title={"Our Mission"} />
-      <SubHero title={"Our Vision"} />
+      {/*<SubHero title={"Our Mission"} />
+      <SubHero title={"Our Vision"} /> */}
+
+      {/* <Carousel /> */}
     </>
   );
 }
