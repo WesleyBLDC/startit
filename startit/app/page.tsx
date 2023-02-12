@@ -12,11 +12,34 @@ function Home() {
     //   </p>
     // </div>
     <>
-      <Hero />
+      {/* <Hero /> */}
       {/*<SubHero title={"Our Mission"} />
       <SubHero title={"Our Vision"} /> */}
 
       {/* <Carousel /> */}
+
+      <div className=" mx-auto">
+        {/* Hero component */}
+        <Hero />
+
+        {/* First segment */}
+        <section className="my-12">
+          <h2 className="text-2xl font-bold text-center">Our Mission</h2>
+          <p className="text-lg text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </section>
+
+        {/* Second segment */}
+        <section className="my-12">
+          <h2 className="text-2xl font-bold text-center">Our Vision</h2>
+          <p className="text-lg text-center ">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </section>
+      </div>
     </>
   );
 }
