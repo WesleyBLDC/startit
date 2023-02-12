@@ -16,5 +16,6 @@ $ npm run dev
 
 ## Tech Stack
 1) NextJS 13 (Beta version, https://nextjs.org/blog/next-13)
+   > The main thing different is the [New app Directory (Beta], ctrl-f in website to understand how it works)
 2) TailwindCSS (https://tailwindcss.com/docs/guides/nextjs)
 3) DaisyUI (Component pack compaitible with TailwindCSS)
