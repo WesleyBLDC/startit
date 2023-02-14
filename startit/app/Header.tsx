@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import logoPic from "../styles/White_StartIT_full_logo_rect.png"; //"../styles/White_StartIT_full_logo.png";
+import bithacksLogo from "/bithacksLogo.png"; //"../styles/White_StartIT_full_logo.png";
 
 import React from "react";
 
@@ -83,6 +84,14 @@ export default function Header() {
       </div>
       <div className="navbar-end">
         {/* <a className="btn">Get started</a> */}
+        <Link href="/">
+          <Image
+            src="/bithacksLogoCropped.png"
+            alt="StartIT Logo"
+            width={200}
+            height={150}
+          ></Image>
+        </Link>
       </div>
     </div>
   );
