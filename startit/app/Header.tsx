@@ -7,9 +7,9 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-transparent">
       <div className="navbar-start">
-        <div className="dropdown">
+        {/* <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,17 +38,19 @@ export default function Header() {
               <a>Item 3</a>
             </li>
           </ul>
-        </div>
-        <Image
-          src={logoPic}
-          alt="StartIT Logo"
-          width={200}
-          height={150}
-        ></Image>
+        </div> */}
+        <Link href="/">
+          <Image
+            src={logoPic}
+            alt="StartIT Logo"
+            width={200}
+            height={150}
+          ></Image>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li>
+          {/* <li>
             <Link
               href="/"
               className="text-sm md:text-base text-white items-center rounded-full text-center hover:text-yellow-500"
@@ -71,7 +73,7 @@ export default function Header() {
             >
               Events
             </Link>
-          </li>
+          </li> */}
           {/* <li>
             <Link
               href="/"
@@ -84,7 +86,7 @@ export default function Header() {
       </div>
       <div className="navbar-end">
         {/* <a className="btn">Get started</a> */}
-        <Link href="/">
+        <Link href="/bithacks">
           <Image
             src="/bithacksLogoCropped.png"
             alt="StartIT Logo"

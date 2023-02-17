@@ -17,7 +17,7 @@ export default function Hero() {
     //     </div>
     //   </div>
     // </div>
-    <div className="hero min-h-screen bg-base-200" >
+    <div className="hero py-36 bg-base-200">
       <div className="hero-content text-center">
         <div className="m-auto">
           <h1 className="text-5xl font-bold">Today's thinkers,</h1>

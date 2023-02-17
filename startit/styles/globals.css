@@ -2,13 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
-
-  
   body {
-    @apply bg-black text-white tracking-wide;
+    @apply bg-hero text-neutral-50 tracking-wide;
   }
 
   h1,
